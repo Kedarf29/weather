@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./beautiful-sky-landscape-digital-art-style_23-2151120821.jpg");
+    background-size: cover; /* Makes the background image cover the entire container */
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 100vh;
+}
+.container{
+    width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+}
+.inputs{
+    padding: 2rem 0rem 2rem 0rem;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(117, 182, 247);
+    height: 150px;
+}
+.inputs input[type='text']{
+    height: 4rem;
+    width: 20rem;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin-right: 4px;
+}
+.inputs input[type='submit']{
+    height: 3rem;
+    width: 6rem;
+    background-color: blue;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 1rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+}
+.display{
+    text-align: center;
+    width: 520px;
+    color: aquamarine;
+}
+.wrapper{
+    
+    background-color: bisque;
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+.wrapper h2{
+    padding: 5px 0;
+    height: 40px;
+    background: blue;
+    text-align: center;
+    color: aliceblue;
+
+}
+.wrapper p{
+    margin: 20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: black;
+    font-size: 23px;
+}
+.wrapper h2 span {
+color: blueviolet;
+font-size: 26px;
+}
+.wrapper p span{
+    color: blueviolet;
+    font-size: 26px;
+}
